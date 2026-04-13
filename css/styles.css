@@ -1,0 +1,203 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Fondo azul claro */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #00aaff; /* Azul celeste */
+    color: #fff; /* Letras blancas */
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+/* Navegación */
+nav {
+    background-color: #0077cc; /* Azul más oscuro */
+    color: #fff;
+    padding: 0.5rem 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main */
+main {
+    padding: 2rem 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: #e6f7ff; /* Fondo azul muy claro */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #0077cc; /* Azul más oscuro */
+    margin-bottom: 1rem;
+}
+
+section p, section ul {
+    margin: 0.5rem 0;
+}
+
+section ul {
+    padding-left: 1.5rem;
+}
+
+button {
+    background-color: #00aaff;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0077cc;
+}
+
+/* Footer */
+footer {
+    background-color: #0077cc;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+footer a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px; /* Ajusta el tamaño de fuente para pantallas pequeñas */
+    }
+
+    nav ul {
+        flex-direction: column; /* Cambia el menú a una columna */
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0; /* Espaciado entre los elementos del menú */
+    }
+
+    main {
+        padding: 1rem; /* Reduce el padding en pantallas pequeñas */
+    }
+
+    section {
+        padding: 1rem; /* Ajusta el padding de las secciones */
+        margin: 1rem 0; /* Reduce el margen entre secciones */
+    }
+
+    button {
+        width: 100%; /* Botones ocupan todo el ancho en pantallas pequeñas */
+        padding: 1rem; /* Aumenta el tamaño del botón para facilitar el clic */
+    }
+
+    footer {
+        font-size: 0.9rem; /* Ajusta el tamaño de fuente del pie de página */
+    }
+}
+
+/* Actividades Destacadas */
+#featured-activities {
+    padding: 2rem 1rem;
+    background-color: #f9f9f9; /* Fondo claro */
+    text-align: center;
+}
+
+#featured-activities h2 {
+    color: #0077cc; /* Azul oscuro */
+    margin-bottom: 1.5rem;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.card {
+    background-color: #ffffff; /* Fondo blanco */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    color: #0077cc; /* Azul oscuro */
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
