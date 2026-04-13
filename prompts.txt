@@ -1,0 +1,9 @@
+puedes ayudarme en hacer un pagina relacionado con un evento tecnologico y puedas darme un nombre, descripción general, una estructura básica y una zona destacada
+
+puedes mejorar el diseño visual de la pagina metiendole colores llamativos como azul celeste con letras blancas, aplicar estilos css mas trabajados y atractivos y mejorar la distribución del contenido
+
+en la pagina puedes agregar mas informacion para motivar la participación y tbm mejorar la incorporación de contenido y a lo que voy es que tenga secciones como actividades del evento, beneficios de asistir, invitados o expositores, preguntas frecuentes e inscripcion o contrato
+
+como puedo meter el diseño visual de mi pagina a este archivo considerando q lo visual esta en styles.css. lo que también quiero es que la pagina este adaptada a los dispositivos moviles en adaptar en pantallas pequeñas, asegurarme que el contenido sea legible y evitar problemas de visualización
+
+ahora en la parte final de la pagina y es una mejora final obligatoria y es de una sección de actividades destacadas utilizando tarjetas. cada tarjeta debe incluir nombre de la actividad, una breve descripción y algun elemento visual para incluir como un ícono o imagen.
